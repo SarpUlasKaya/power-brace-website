@@ -5,7 +5,8 @@ let pdfDoc = null,
     pageIsRendering = false,
     pageNumIsPending = null;
 
-const scale = 1.5,
+const scale = 2.4,
+    wrapper = document.querySelector('#canvas-wrapper'),
     canvas = document.querySelector('#pdf-render'),
     ctx = canvas.getContext('2d');
 
@@ -19,6 +20,10 @@ const renderPage = num => {
         const viewport = page.getViewport({scale});
         canvas.height = viewport.height;
         canvas.width = viewport.width;
+        canvas.style.width = "100%";
+        canvas.style.height = "100%";
+        wrapper.style.width = Math.floor(viewport.width/scale) + 'pt';
+        wrapper.style.height = Math.floor(viewport.height/scale) + 'pt';
 
         const renderCtx = {
             canvasContext: ctx,
