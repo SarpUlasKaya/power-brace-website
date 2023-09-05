@@ -1,21 +1,74 @@
 * {
-    margin: 1rem;
+    margin: 0;
     padding: 0;
+    background-color: rgb(36, 35, 34);
 }
 
-.top-bar {
+.title-and-author {
+    background-color: black;
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
+
+.main-title {
+    color: goldenrod;
+    font-size: 50px;
+    background-color: black;
+}
+
+.author {
+    color: peru;
+    font-size: 30px;
+    background-color: black;
+}
+
+.table-of-contents {
+    margin: auto;
+    width: 60%;
+}
+
+.table-of-contents-header {
+    text-align: center;
+    color: silver;
+}
+
+section {
+    color: silver;
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 10px;
+}
+
+.contents-level-two {
+    margin-left: 30px;
+}
+
+.filling-dots {
+    flex: 1;
+    overflow: hidden;
+}
+
+.pdf-nav-bar {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     background: #333;
     color: #fff;
-    padding: 1rem;
+    text-align: center;
 }
 
 .btn {
+    margin: 1rem;
     background: coral;
     color: #fff;
     border: none;
     outline: none;
     cursor: pointer;
     padding: 0.7rem 2rem;
+}
+
+.wrapper {
+    margin: auto;
 }
 
 .btn:hover {
