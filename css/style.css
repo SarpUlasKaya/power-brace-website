@@ -24,6 +24,7 @@
 }
 
 .warnings-list {
+    font-family:'Segoe UI';
     margin-left: auto;
     margin-right: auto;
     margin-top: 2rem;
@@ -33,16 +34,17 @@
 
 .warnings-header {
     text-align: center;
-    color: firebrick;
+    color: rgb(214, 52, 52);
 }
 
 .warnings-item {
     text-align: center;
-    color: firebrick;
+    color: rgb(214, 52, 52);
     margin-top: 1rem;
 }
 
 .table-of-contents {
+    font-family:'Segoe UI';
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 3rem;
@@ -89,8 +91,11 @@ section {
 }
 
 .btn-top {
+    font-family: Helvetica;
+    font-size: 15px;
+    border-radius: 0.5rem;
     margin: 1rem;
-    background: coral;
+    background:firebrick;
     color: #fff;
     border: none;
     outline: none;
@@ -99,19 +104,28 @@ section {
 }
 
 .page-info {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
+    border-radius: 0.5rem;
 }
 
 .btn-bottom {
+    font-family: Helvetica;
+    font-size: 15px;
+    text-decoration: none;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    background: coral;
+    background: firebrick;
     color: #fff;
     border: none;
     outline: none;
     cursor: pointer;
     padding: 0.7rem 1.5rem;
+    border-radius: 0.5rem;
 }
 
 .page-select {
@@ -141,11 +155,14 @@ section {
 }
 
 .socials-header {
+    font-family: 'Segoe UI';
     margin-bottom: 1.5rem;
     color: silver;
 }
 
 .btn-youtube {
+    border-radius: 0.5rem;
+    font-family: Helvetica;
     text-decoration: none;
     margin: 1rem;
     background: red;
@@ -161,6 +178,8 @@ section {
 }
 
 .btn-linked-in {
+    border-radius: 0.5rem;
+    font-family: Helvetica;
     text-decoration: none;
     margin: 1rem;
     background: dodgerblue;
@@ -176,6 +195,8 @@ section {
 }
 
 .btn-reddit {
+    border-radius: 0.5rem;
+    font-family: Helvetica;
     text-decoration: none;
     margin: 1rem;
     background: orangered;
@@ -191,6 +212,8 @@ section {
 }
 
 .discord-info {
+    border-radius: 0.5rem;
+    font-family: Helvetica;
     text-decoration: none;
     margin: 1rem;
     background: mediumslateblue;
@@ -201,6 +224,7 @@ section {
 }
 
 .socials-info {
+    font-family:'Segoe UI';
     margin-top: 2rem;
     margin-bottom: 2rem;
     color: silver;
