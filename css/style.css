@@ -23,8 +23,29 @@
     background-color: black;
 }
 
+.warnings-list {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    width: 60%;
+}
+
+.warnings-header {
+    text-align: center;
+    color: firebrick;
+}
+
+.warnings-item {
+    text-align: center;
+    color: firebrick;
+    margin-top: 1rem;
+}
+
 .table-of-contents {
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
     width: 60%;
 }
 
@@ -49,7 +70,9 @@ section {
     overflow: hidden;
 }
 
-.pdf-nav-bar {
+.pdf-nav-bar-top {
+    position: sticky;
+    top: 0;
     margin-top: 1rem;
     margin-bottom: 1rem;
     background: #333;
@@ -57,22 +80,130 @@ section {
     text-align: center;
 }
 
-.btn {
+.pdf-nav-bar-bottom {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.btn-top {
     margin: 1rem;
     background: coral;
     color: #fff;
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 0.7rem 2rem;
+    padding: 0.7rem 1.5rem;
+}
+
+.page-info {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.btn-bottom {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background: coral;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0.7rem 1.5rem;
+}
+
+.page-select {
+    width: 4rem;
+    color: #fff;
+    margin-right: 8rem;
 }
 
 .wrapper {
     margin: auto;
 }
 
-.btn:hover {
+.btn-top:hover {
     opacity: 0.9;
+}
+
+.btn-bottom:hover {
+    opacity: 0.9;
+}
+
+.socials {
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 60%;
+}
+
+.socials-header {
+    margin-bottom: 1.5rem;
+    color: silver;
+}
+
+.btn-youtube {
+    text-decoration: none;
+    margin: 1rem;
+    background: red;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0.7rem 1.5rem; 
+}
+
+.btn-youtube:hover {
+    opacity: 0.9;
+}
+
+.btn-linked-in {
+    text-decoration: none;
+    margin: 1rem;
+    background: dodgerblue;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0.7rem 1.5rem;
+}
+
+.btn-linked-in:hover {
+    opacity: 0.9;
+}
+
+.btn-reddit {
+    text-decoration: none;
+    margin: 1rem;
+    background: orangered;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0.7rem 1.5rem;
+}
+
+.btn-reddit:hover {
+    opacity: 0.9;
+}
+
+.discord-info {
+    text-decoration: none;
+    margin: 1rem;
+    background: mediumslateblue;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 0.7rem 1.5rem;
+}
+
+.socials-info {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: silver;
 }
 
 .error {

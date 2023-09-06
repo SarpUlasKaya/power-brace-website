@@ -79,12 +79,23 @@ const jumpBackTenPages = () => {
     queueRenderPage(pageNum);
 }
 
-//Show forward ten pages
+//Jump forward 10 pages
 const jumpForwardTenPages = () => {
     if (pageNum >= (pdfDoc.numPages - 9)) {
         return;
     }
     pageNum = pageNum + 10;
+    queueRenderPage(pageNum);
+}
+
+//Jump to selected page
+
+const jumpToPage = () => {
+    const inputNum = document.getElementById("page-select-field").valueAsNumber;
+    if (isNaN(inputNum) || (inputNum < 1) || (inputNum > pdfDoc.numPages)) {
+        return;
+    }
+    pageNum = inputNum;
     queueRenderPage(pageNum);
 }
 
@@ -108,3 +119,4 @@ document.querySelector('#prev-page-ten').addEventListener('click', jumpBackTenPa
 document.querySelector('#prev-page').addEventListener('click', showPrevPage);
 document.querySelector('#next-page').addEventListener('click', showNextPage);
 document.querySelector('#next-page-ten').addEventListener('click', jumpForwardTenPages);
+document.querySelector('#jump-to-page').addEventListener('click', jumpToPage);
