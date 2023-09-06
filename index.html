@@ -80,26 +80,37 @@
               </section>
         </div>
 
-        <div class="pdf-nav-bar-top">
-            <button class="btn" id="prev-page-ten">
+        <div class="pdf-nav-bar">
+            <button class="btn-top" id="prev-page-ten">
                 Jump Back 10 Pages
             </button>
-            <button class="btn" id="prev-page">
+            <button class="btn-top" id="prev-page">
                 Previous Page
             </button>
             <span class="page-info">
                 Page <span id="page-num"></span> of <span id="page-count"></span>
             </span>
-            <button class="btn" id="next-page">
+            <button class="btn-top" id="next-page">
                 Next Page
             </button>
-            <button class="btn" id="next-page-ten">
+            <button class="btn-top" id="next-page-ten">
                 Jump Forward 10 Pages
             </button>
+            <br/>
         </div>
 
         <div class="wrapper" id="canvas-wrapper">
             <canvas id="pdf-render"></canvas>
+        </div>
+
+        <div class="pdf-nav-bar">
+          <button class="btn-bottom" id="jump-to-page">
+            Jump to page:
+          </button>
+          <input class="page-select" type="number" id="page-select-field" value="1">
+          <button class="btn-bottom" id="download-pdf">
+            Download as PDF
+          </button>
         </div>
 
         <script src="https://mozilla.github.io/pdf.js/build/pdf.js"></script>

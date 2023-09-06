@@ -70,7 +70,7 @@ section {
     overflow: hidden;
 }
 
-.pdf-nav-bar-top {
+.pdf-nav-bar {
     margin-top: 1rem;
     margin-bottom: 1rem;
     background: #333;
@@ -78,14 +78,36 @@ section {
     text-align: center;
 }
 
-.btn {
+.btn-top {
     margin: 1rem;
     background: coral;
     color: #fff;
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 0.7rem 2rem;
+    padding: 0.7rem 1.5rem;
+}
+
+.page-info {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.btn-bottom {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background: coral;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0.7rem 1.5rem;
+}
+
+.page-select {
+    width: 4rem;
+    color: #fff;
+    margin-right: 8rem;
 }
 
 .wrapper {
