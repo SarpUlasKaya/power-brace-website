@@ -148,9 +148,6 @@ section {
 
 .socials {
     margin-top: 2rem;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
     text-align: center;
 }
 
@@ -158,6 +155,9 @@ section {
     font-family: 'Segoe UI';
     margin-bottom: 1.5rem;
     color: silver;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
 }
 
 .btn-social {
@@ -193,6 +193,9 @@ section {
     margin-top: 2rem;
     margin-bottom: 2rem;
     color: silver;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
 }
 
 .error {
