@@ -1,4 +1,4 @@
-const url = '/docs/noveldraft.pdf';
+const url = 'sarpulaskaya.github.io/docs/noveldraft.pdf';
 
 let pdfDoc = null,
     pageNum= 1,
