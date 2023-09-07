@@ -160,12 +160,11 @@ section {
     color: silver;
 }
 
-.btn-youtube {
+.btn-social {
     border-radius: 0.5rem;
     font-family: Helvetica;
     text-decoration: none;
     margin: 1rem;
-    background: red;
     color: #fff;
     border: none;
     outline: none;
@@ -173,41 +172,7 @@ section {
     padding: 0.7rem 1.5rem; 
 }
 
-.btn-youtube:hover {
-    opacity: 0.9;
-}
-
-.btn-linked-in {
-    border-radius: 0.5rem;
-    font-family: Helvetica;
-    text-decoration: none;
-    margin: 1rem;
-    background: dodgerblue;
-    color: #fff;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 0.7rem 1.5rem;
-}
-
-.btn-linked-in:hover {
-    opacity: 0.9;
-}
-
-.btn-reddit {
-    border-radius: 0.5rem;
-    font-family: Helvetica;
-    text-decoration: none;
-    margin: 1rem;
-    background: orangered;
-    color: #fff;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 0.7rem 1.5rem;
-}
-
-.btn-reddit:hover {
+.btn-social:hover {
     opacity: 0.9;
 }
 
