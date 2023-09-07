@@ -72,19 +72,27 @@ const showNextPage = () => {
 
 //Jump back 10 pages
 const jumpBackTenPages = () => {
-    if (pageNum <= 10) {
+    if (pageNum <= 1) {
         return;
     }
-    pageNum = pageNum - 10;
+    if ((pageNum <= 10) && (pageNum >= 2)) {
+        pageNum = 1;
+    } else {
+        pageNum = pageNum - 10;
+    }
     queueRenderPage(pageNum);
 }
 
 //Jump forward 10 pages
 const jumpForwardTenPages = () => {
-    if (pageNum >= (pdfDoc.numPages - 9)) {
+    if (pageNum >= pdfDoc.numPages) {
         return;
     }
-    pageNum = pageNum + 10;
+    if ((pageNum >= pdfDoc.numPages - 9) && (pageNum <= pdfDoc.numPages - 1)) {
+        pageNum = pdfDoc.numPages;
+    } else {
+        pageNum = pageNum + 10;
+    }
     queueRenderPage(pageNum);
 }
 
