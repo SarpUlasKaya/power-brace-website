@@ -203,3 +203,7 @@ section {
     color: #fff;
     padding: 1rem;
 }
+
+#insta {
+    background: radial-gradient(circle at 20% 220%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
