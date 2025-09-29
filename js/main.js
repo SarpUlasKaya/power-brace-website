@@ -1,4 +1,4 @@
-const url = 'docs/noveldraft.pdf';
+const url = 'docs/powerbrace.pdf';
 
 let pdfDoc = null,
     pageNum= 1,
