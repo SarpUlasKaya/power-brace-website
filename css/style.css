@@ -90,6 +90,26 @@ section {
     text-align: center;
 }
 
+.extra-content {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.btn-extra-content {
+    font-family: Helvetica;
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    background:firebrick;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0.7rem 1.5rem;
+}
+
 .btn-top {
     font-family: Helvetica;
     font-size: 15px;
